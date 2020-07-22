@@ -29,7 +29,7 @@ angular.module("mainApp").controller(
       //   alert("Incorrect Username");
       // }
 
-      if (userName == userName) {
+      if (userName == Username) {
         if (password === password) {
           $rootScope.$broadcast("profileUpdate", {
             userName: userName,
