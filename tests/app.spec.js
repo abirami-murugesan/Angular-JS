@@ -24,7 +24,7 @@ describe("Unit Test For Login", function () {
     $scope.userName = "test";
     $scope.password = "test";
 
-    $scope.login();
+    $scope.login($scope.userName, $scope.password);
 
     expect($scope.isLoggedIn).toBe("true");
   });
@@ -33,11 +33,11 @@ describe("Unit Test For Login", function () {
     $scope.userName = "test1";
     $scope.password = "test";
 
-    $scope.login();
+    $scope.login($scope.userName, $scope.password);
 
     expect($scope.isLoggedIn).toBe("false");
   });
-
+  
 });
 
 describe("Unit Test For main-controller", function () {
