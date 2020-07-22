@@ -1,0 +1,100 @@
+.nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+ul{
+  list-style-type: none;
+
+}
+
+.post{
+  margin-top: 50px;
+  padding: 5px 30px 30px 30px;;
+  border: 2px solid rgb(235, 135, 135);
+  border-radius: 50px;
+  background: rgb(180, 149, 149);
+
+}
+
+body {
+  background: rgba(218, 84, 51, 0.2);
+  /* opacity: 0.5; */
+}
+
+.nav-bar li {
+  display: inline;
+  float: right;
+}
+
+.nav-bar a,
+.nav-bar button {
+  display: block;
+  color: black;
+  background-color: #d6440b; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.logout-btn {
+}
+
+h1 {
+  text-align: center;
+  color: brown;
+  margin-top: 100px;
+}
+
+.login {
+  text-align: center;
+  background: rgba(222, 184, 135, 0.4);
+  margin: auto;
+  margin-top: 111px;
+  padding: 10px 25px 100px 24px;
+  width: 50%;
+  border: 2px solid rgb(235, 135, 135);
+  border-radius: 130px;
+}
+
+.input-style {
+  margin-left: 30px;
+}
+
+.btn-login {
+  color: black;
+  background-color: #850a2fa4; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+h4 {
+  text-align: center;
+  margin-top: 50px;
+  color: #df0433;
+  font-size: 30px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 100px;
+  color: #0804f1;
+  font-size: 50px;
+}
+
+.para-p {
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  margin-right: 40px;
+  font-size: 20px;
+}

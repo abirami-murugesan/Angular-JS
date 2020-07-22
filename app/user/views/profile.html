@@ -1,0 +1,16 @@
+<div ng-controller="profileController">
+  <h3>Welcome To Your Profile</h3>
+
+  <input type="text" ng-model="message" class="input-style" />
+
+  <button ng-click="addMsg(message)" id="btn-add">Add</button>
+
+  <ul>
+    <li ng-repeat="msg in msgs">
+      {{msg}}
+    </li>
+  </ul>
+
+  <button ng-click="getLength()" id="get-len">Get Length</button>
+  <div ng-bind="lengthValue"></div>
+</div>

@@ -1,0 +1,36 @@
+<div class="login">
+  <h1>Login Page</h1>
+
+  <form ng-submit="login(userName,password)" name="loginForm">
+    <div>
+      <label>UserName</label>
+      <input
+        type="text"
+        ng-model="userName"
+        name="username"
+        class="input-style"
+        ng-required="true"
+      /><br /><br />
+
+      <div ng-show="loginForm.username.$touched && loginForm.username.$invalid">
+        <small style="color: red;">Please enter UserName</small>
+      </div>
+      <br />
+
+      <label>Password</label>
+      <input
+        type="password"
+        ng-model="password"
+        name="password"
+        class="input-style"
+        ng-required="true"
+      /><br /><br />
+      <div ng-show="loginForm.password.$touched && loginForm.password.$invalid">
+        <small style="color: red;">Please enter Password</small>
+      </div>
+      <br />
+
+      <button type="submit" id="btn-login" class="btn-login">Login</button>
+    </div>
+  </form>
+</div>
