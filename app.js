@@ -2,6 +2,10 @@
 
 var app = angular.module("mainApp", ["ngRoute"]);
 
+ angular.element(function() {
+      angular.bootstrap(document, ['mainApp']);
+    });
+
 app.factory("userService", function () {
   var addUser = {};
   addUser.add = function (msgs, message) {
