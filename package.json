@@ -21,8 +21,9 @@
     "angular-route": "^1.8.0",
      "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
-        "express":"4.17",
-    "body-parser":"1.19"
+     "connect": "^3.7.0",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1"
   },
   "devDependencies": {
     "angular-mocks": "^1.8.0",
