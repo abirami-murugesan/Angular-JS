@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "App with Gulp Build",
   "main": "app.js",
+    "engines": {
+    "node": "12.16",
+     "npm": "6.12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
    "test": "karma start",
