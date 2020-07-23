@@ -6,4 +6,6 @@ var connect = require('connect'),
 var app = connect();
 
 app.use(serveStatic("../angularjs"));
+
+app.useconnect.static(__dirname + '/public'));
 app.listen(process.env.PORT || 5000);
