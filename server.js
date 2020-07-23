@@ -6,4 +6,4 @@ var connect = require('connect'),
 var app = connect();
 
 app.use(serveStatic("../angularjs"));
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
