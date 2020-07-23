@@ -7,7 +7,7 @@ var app = connect();
 
 app.use(serveStatic("../angularjs"));
 
-app.use(connect.static(__dirname + '/index.html'));
+// app.use(connect.static(__dirname + '/index.html'));
 
 // app.use(serveStatic('../angularjs'),  {default: 'angular.min.js'}); app.listen(process.env.PORT || 3000); 
-app.listen(5000);
+// app.listen(5000);
