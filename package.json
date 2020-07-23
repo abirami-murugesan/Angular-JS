@@ -20,7 +20,9 @@
     "angular": "^1.8.0",
     "angular-route": "^1.8.0",
      "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.1"
+    "gulp-concat": "^2.6.1",
+        "express":"*",
+    "body-parser":"*"
   },
   "devDependencies": {
     "angular-mocks": "^1.8.0",
