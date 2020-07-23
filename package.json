@@ -7,13 +7,16 @@
     "test": "echo \"Error: no test specified\" && exit 1",
    "test": "karma start",
    "build": "gulp",
-  "start": "node app.js"
+  "start": "node app.js",
+   "postinstall" : "gulp default" 
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.8.0",
-    "angular-route": "^1.8.0"
+    "angular-route": "^1.8.0",
+     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
   },
   "devDependencies": {
     "angular-mocks": "^1.8.0",
