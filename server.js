@@ -15,7 +15,7 @@
 var express = require('express');  
 var app = express();  
   
-app.use(express.static("app"));  
+app.use(express.static("my-app"));  
   
 app.get('/', function (req, res) {  
     res.redirect('/');  
