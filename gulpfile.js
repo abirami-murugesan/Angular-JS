@@ -140,7 +140,7 @@ gulp.task(
     "browser-sync",
     "test",
     // "webdriver_standalone",
-    "webdriver_update",
-    "e2e"
+//     "webdriver_update",
+//     "e2e"
   )
 );
