@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="mainApp">
+<html lang="en" >
   <head>
     <!-- <base href="/"> -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My App</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.js" type="text/javascript" charset="utf-8"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-route.js" type="text/javascript" charset="utf-8"></script>
+    <script src="app.js"></script>
+    <script src="./login/login.js"></script>
+    <script src="./header/controller.js"></script>
+    <script src="./user/user.js"></script>
   </head>
-  <body>
+  <body ng-app="mainApp">
     <!-- <div ng-include="'header.html'"></div> -->
     <!-- 
     <div ng-controller="myCntrl">
@@ -44,11 +50,6 @@
 
     <div ng-view></div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.js" type="text/javascript" charset="utf-8"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular-route.js" type="text/javascript" charset="utf-8"></script>
-    <script src="app.js"></script>
-    <script src="./login/login.js"></script>
-    <script src="./header/controller.js"></script>
-    <script src="./user/user.js"></script>
+    
   </body>
 </html>
