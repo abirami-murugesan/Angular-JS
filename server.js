@@ -14,7 +14,7 @@
 
 var express = require('express');  
 var app = express();  
-var main = require('app.js')
+var main = require(__dirname + '/'+'app.js')
   
 app.use(express.static("my-app"));  
   
