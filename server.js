@@ -13,7 +13,8 @@
 // app.listen(5000);
 
 var express = require('express');  
-var app = express();  
+var app = express(); 
+var path = require('path');
 // var main = require(__dirname + '/'+'app.js')
   
 app.use(express.static("my-app"));  
@@ -22,10 +23,10 @@ app.use(express.static("my-app"));
 // app.get('/', function (req, res) {  
 //     res.redirect('/');  
 // });  
-
-app.use("/login",express.static(__dirname + "/app/login"));
-app.use("/header",express.static(__dirname + "/app/header"));
-app.use("/user",express.static(__dirname + "/app/user"));
+app.use(express.static(path.join(__dirname, 'app')));
+// app.use("/login",express.static(__dirname + "/app/login"));
+// app.use("/header",express.static(__dirname + "/app/header"));
+// app.use("/user",express.static(__dirname + "/app/user"));
 
 
 app.get('/', function(req, res){
