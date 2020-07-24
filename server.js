@@ -32,6 +32,8 @@ app.use(express.static(path.join(__dirname, '/dist')));
 
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/'+'index.html');
+  res.sendFile(__dirname + '/'+'app.js');
+  res.sendFile(__dirname + '/'+'style.css');
     console.log("----------------");
 });
   
