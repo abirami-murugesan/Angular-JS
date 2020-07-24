@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
    "test": "karma start",
    "build": "gulp",
-  "start": "gulp",
+  "start": "node server.js",
    "postinstall" : "gulp default" 
   },
   "author": "",
