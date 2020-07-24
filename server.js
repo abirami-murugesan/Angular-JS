@@ -14,10 +14,10 @@
 
 var express = require('express');  
 var app = express();  
-var main = require(__dirname + '/'+'app.js')
+// var main = require(__dirname + '/'+'app.js')
   
-// app.use(express.static("my-app"));  
-app.use(express.static(__dirname + '/public'));
+app.use(express.static("my-app"));  
+// app.use(express.static(__dirname + '/public'));
   
 // app.get('/', function (req, res) {  
 //     res.redirect('/');  
