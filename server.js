@@ -17,14 +17,14 @@ var app = express();
   
 app.use(express.static("my-app"));  
   
-app.get('/', function (req, res) {  
-    res.redirect('/');  
-});  
+// app.get('/', function (req, res) {  
+//     res.redirect('/');  
+// });  
 
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/'+'index.html');
     console.log("----------------");
 });
   
-app.listen(process.env.PORT || 8080, 'localhost');  
+app.listen(process.env.PORT || 8080);  
 console.log("MyProject Server is Listening on port 8080");  
