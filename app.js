@@ -44,7 +44,7 @@ app.config(function ($routeProvider, $locationProvider) {
       // controller:'profileCtrl'
     })
     .when("/post", {
-      templateUrl: "./user/views/userPOsts.html",
+      templateUrl: "./user/views/userPosts.html",
       controller: "postController",
     })
     // .when("/post1", {
