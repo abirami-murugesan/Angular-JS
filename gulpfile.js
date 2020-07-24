@@ -137,7 +137,7 @@ gulp.task(
     "html",
     "js-app",
     "index-html",
-//     "browser-sync",
+    "browser-sync",
 //     "test",
     // "webdriver_standalone",
 //     "webdriver_update",
