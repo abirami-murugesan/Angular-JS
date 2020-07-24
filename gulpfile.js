@@ -103,6 +103,13 @@ gulp.task("test", function (done) {
   );
 });
 
+gulp.task('webserver', function() {
+  connect.server({
+    livereload: true,
+    port : 
+  });
+});
+
 gulp.task("webdriver_standalone", webdriver_standalone);
 
 // Downloads the selenium webdriver - stupid solution to pass extra args like ignore_ssl
@@ -137,7 +144,7 @@ gulp.task(
     "html",
     "js-app",
     "index-html",
-    "browser-sync",
+    "webserver",
 //     "test",
     // "webdriver_standalone",
 //     "webdriver_update",
