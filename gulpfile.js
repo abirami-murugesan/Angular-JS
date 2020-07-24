@@ -144,8 +144,8 @@ gulp.task(
     "css",
     "html",
     "js-app",
-    "index-html",
-    "webserver",
+    "index-html"
+//     "webserver",
 //     "test",
     // "webdriver_standalone",
 //     "webdriver_update",
