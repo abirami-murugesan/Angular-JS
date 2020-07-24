@@ -23,6 +23,11 @@ app.use(express.static("my-app"));
 //     res.redirect('/');  
 // });  
 
+app.use("/login",express.static(__dirname + "/app/login"));
+app.use("/header",express.static(__dirname + "/app/header"));
+app.use("/user",express.static(__dirname + "/app/user"));
+
+
 app.get('/', function(req, res){
     res.sendFile(__dirname + '/'+'index.html');
     console.log("----------------");
