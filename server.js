@@ -24,6 +24,7 @@ app.use(express.static("my-app"));
 //     res.redirect('/');  
 // });  
 app.use(express.static(path.join(__dirname, 'app')));
+app.use(express.static(path.join(__dirname, '/dist')));
 // app.use("/login",express.static(__dirname + "/app/login"));
 // app.use("/header",express.static(__dirname + "/app/header"));
 // app.use("/user",express.static(__dirname + "/app/user"));
